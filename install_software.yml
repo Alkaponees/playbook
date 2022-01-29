@@ -1,0 +1,28 @@
+---
+- hosts: Windows
+  tasks:
+  - name: Install Notepad++
+    win_chocolatey:
+      name: notepadplusplus
+      state: present
+
+
+  - name: Install Chrome
+    win_chocolatey:
+       name: googlechrome
+       state: present
+
+  - name: Install Git
+    win_chocolatey:
+        name: git
+        state: present
+
+  - name: Install VS Code
+    win_chocolatey:
+        name: vscode
+        state: present
+    
+  - name: Install adobereader
+    win_chocolatey:
+        name: adobereader
+        state: present

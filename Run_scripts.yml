@@ -10,6 +10,6 @@
 
   - name: Delete script from Windows
     win_file:
-      path: C:\Users\Name_user\script.ps1
+      path: C:\Users\whoami\script.ps1
       state: absent      
 

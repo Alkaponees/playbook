@@ -1,5 +1,5 @@
 ---
-- host: windows
+- host: Windows
   tasks:
   - name: Copy script from Ubuntu
     win_copy:
